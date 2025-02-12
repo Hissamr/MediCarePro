@@ -1,0 +1,39 @@
+.login{
+    /* background-color: bisque; */
+    width: 100%;
+    height: 100vh;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100px;
+
+}
+
+.container{
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 80vh;
+}
+
+.doc-container, .pat-container{
+    background-color: rgba(238, 238, 238, 0.705);
+    width: 30%;
+    /* height: 80%; */
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    padding: 20px;
+}
+
+.doc-title, .pat-title{
+    display: flex;
+    justify-content: center;
+    padding: 10px 1px;
+}
